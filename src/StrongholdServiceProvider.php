@@ -2,9 +2,9 @@
 
 namespace GertjanRoke\Stronghold;
 
+use GertjanRoke\Stronghold\Commands\StrongholdCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use GertjanRoke\Stronghold\Commands\StrongholdCommand;
 
 class StrongholdServiceProvider extends PackageServiceProvider
 {

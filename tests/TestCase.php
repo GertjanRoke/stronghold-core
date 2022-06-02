@@ -2,9 +2,9 @@
 
 namespace GertjanRoke\Stronghold\Tests;
 
+use GertjanRoke\Stronghold\StrongholdServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use GertjanRoke\Stronghold\StrongholdServiceProvider;
 
 class TestCase extends Orchestra
 {
