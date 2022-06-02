@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace GertjanRoke\Stronghold\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class StrongholdCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'stronghold-core';
 
     public $description = 'My command';
 
