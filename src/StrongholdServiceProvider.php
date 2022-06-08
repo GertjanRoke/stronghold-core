@@ -2,7 +2,6 @@
 
 namespace GertjanRoke\Stronghold;
 
-use GertjanRoke\Stronghold\Commands\StrongholdCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -19,7 +18,6 @@ class StrongholdServiceProvider extends PackageServiceProvider
             ->name('stronghold-core')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_stronghold-core_table')
-            ->hasCommand(StrongholdCommand::class);
+            ->hasMigration('create_stronghold-core_table');
     }
 }
