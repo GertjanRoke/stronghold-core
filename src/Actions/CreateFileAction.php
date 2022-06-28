@@ -2,10 +2,10 @@
 
 namespace GertjanRoke\Stronghold\Actions;
 
-use Illuminate\Support\Str;
-use Illuminate\Http\UploadedFile;
 use GertjanRoke\Stronghold\Models\File;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
 
 class CreateFileAction

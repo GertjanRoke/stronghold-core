@@ -2,9 +2,9 @@
 
 namespace GertjanRoke\Stronghold\Actions;
 
-use Illuminate\Support\Collection;
-use GertjanRoke\Stronghold\Models\File;
 use GertjanRoke\Stronghold\Interfaces\ActionInterface;
+use GertjanRoke\Stronghold\Models\File;
+use Illuminate\Support\Collection;
 
 class GetFilesAction implements ActionInterface
 {

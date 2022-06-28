@@ -1,10 +1,10 @@
 <?php
 
+use GertjanRoke\Stronghold\Actions\CreateFileAction;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\ValidationException;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use GertjanRoke\Stronghold\Actions\CreateFileAction;
 
 uses(RefreshDatabase::class);
 
